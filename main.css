@@ -1,3 +1,7 @@
+html {
+  background-image: url("images/ingredients2.jpeg");
+  background-repeat: no-repeat;
+}
 .search {
   text-align: center;
   width: 100%;
@@ -18,9 +22,9 @@ i {
    width: 50%;
    height: 100%;
  }
- .recipes {
+ .spoon {
    float:left;
    display:inline-block;
-   height: 50%;
-   width: 33%;
+   height: 100%;
+   width: 50%;
  }

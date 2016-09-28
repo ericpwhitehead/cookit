@@ -29,7 +29,7 @@ $(function(){
         count: 10,
         recipes: 'title'
       };
-    $.getJSON('http://food2fork.com/api/search', recipeParams, function(data){
+    $.getJSON('https://food2fork.com/api/search', recipeParams, function(data){
       $('.recipe-results').empty();
       $.each(data.recipes, function(){
         var recipeTitle = this.title;

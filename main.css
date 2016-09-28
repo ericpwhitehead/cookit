@@ -1,30 +1,66 @@
 html {
   background-image: url("images/ingredients2.jpeg");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+button {
+  font-size: 15px;
+  font-family: 'Dosis', sans-serif;
+  border-radius: 0;
+  background-color: #008E00;
+  color: white;
+}
+button:hover {
+  background-color: #66BB66;
+  color: black;
 }
 .search {
   text-align: center;
   width: 100%;
   font-family: 'Dosis', sans-serif;
   margin-top: 40px;
+  background-color: rgba(160,160,160, 0.5);
+  padding-bottom: 10px;
+}
+.search:hover {
+  color: rgb(120,0,0);
 }
 i {
   text-align: center;
 }
+i:hover {
+  color: #CC0000;
+}
+p{
+  font-family: 'Dosis', sans-serif;
+}
+.container > .youtube, .spoon {
+  background-color: rgba(252, 200, 187, .5);
+  font-family: 'Dosis', sans-serif;
+}
 .container {
   width: 100%;
-  margin-left: 60px;
-  margin-right: 30px;
+  display: flex;
 }
-.youtube {
-   float:left;
-   display:inline-block;
+.youtube, .spoon {
+   display: inline-block;
+   text-align: center;
    width: 50%;
    height: 100%;
+   padding-top: 30px;
  }
- .spoon {
-   float:left;
-   display:inline-block;
-   height: 100%;
-   width: 50%;
+ .foodpic {
+   height: 180px;
+   width: 220px;
  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h2 {
+  font-family: 'Dosis', sans-serif;
+}

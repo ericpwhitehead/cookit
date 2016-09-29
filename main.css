@@ -38,7 +38,7 @@ i:hover {
 p{
   font-family: 'Dosis', sans-serif;
 }
-.container > .youtube, .spoon {
+.container {
   background-color: rgba(252, 200, 187, .5);
   font-family: 'Dosis', sans-serif;
 }
@@ -53,9 +53,9 @@ p{
    height: 100%;
    padding-top: 30px;
  }
- .foodpic {
-   height: 180px;
-   width: 220px;
+ .recipeImage {
+   height: 300%;
+   width: 300%;
  }
 a {
   text-decoration: none;
@@ -63,4 +63,8 @@ a {
 }
 h2 {
   font-family: 'Dosis', sans-serif;
+}
+.recipeImage {
+  height: 180px;
+  width: 220px;
 }

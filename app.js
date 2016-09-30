@@ -25,10 +25,10 @@ $(function(){
   $.getJSON('https://api.yummly.com/v1/api/recipes?_app_id=5241297e&_app_key=a811f76dde33d08303b90321171edcc5&q='+recipeSearch+'&maxResult=20&start=20'+'&requirePictures=true', function(data){
     $.each(data.matches, function() {
       var thisId = this.id;
-      console.log(thisId);
+      console.log(this);
       var recipeName = this.recipeName;
       var recipeImage = this.smallImageUrls;
-        $('.recipe-results').append("<a href='#'><h2>"+recipeName+"</h2><img src='"+recipeImage+"'></a>")
+        $('.recipe-results').append("<div class='yummlyWrapper'><a href='http://www.yummly.com/recipe/"+thisId+"'><img style='width:150px;float:left;' src='"+recipeImage+"'><h2>"+recipeName+"</h2></a></div>")
       });
     });
   });

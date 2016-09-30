@@ -68,3 +68,14 @@ h2 {
   height: 180px;
   width: 220px;
 }
+
+.yummlyWrapper {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.yummlyWrapper a h2 {
+  float: left;
+  padding-left: 10px;
+}
